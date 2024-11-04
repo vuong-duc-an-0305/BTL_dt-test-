@@ -1,0 +1,165 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.sectionHeader {
+    background: #1878b9;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pHeader {
+    color: white;
+    font-style: Helvetica;
+}
+
+.ulHeader {
+    display: flex;
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    height: 78px;
+    width: 250px;
+}
+
+.sectionSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputSearch {
+    height: 46px;
+    width: 345px;
+    margin-right: 0px;
+    font-size: large;
+    padding: 0 10px;
+}
+
+.buttonSearch {
+    height: 46px;
+    width: 54px;
+    background-color: #2A77F2;
+    margin-left: 0px;
+    padding: 0;
+    border: none;
+}
+
+.imgSearch {
+    height: 30px;
+    width: 30px;
+    
+}
+
+.whiteList {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-style: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.iconWhiteList {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.login {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-style: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.iconLogin {
+    /* margin-right: 5px; */
+    width: 30px;
+    height: 30px;
+}
+
+.cart {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.sectionMenu {
+}
+
+.ulMenu {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    margin: 0 450px;
+    gap: 70px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    width: 125px;
+}
+
+    .subMenu li {
+        padding: 5px 0;
+    }
+
+.menu-item:hover .subMenu {
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item:hover main {
+    filter: brightness(50%);
+}
+
+.sectionMenu:hover hr {
+    display: none;
+}
+
+.container-footer {
+    display: flex;
+    margin: 0 200px;
+    padding-top: 50px;
+    gap: 50px;
+    color: #FFFFFF
+}
+
+.ul_footer li {
+    margin-top: 10px;
+}

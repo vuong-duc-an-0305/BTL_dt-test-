@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="BTL_dt.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/site1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+                 <header>
+    <section class="sectionHeader">
+        <p class="pHeader">Free shipping on all domestic US Orders</p>
+    </section>
+    <section class="sectionSearch">
+
+        <ul class="ulHeader">
+            <li><img class="logo"
+                    src="../picture/cellmigo_close_up_with_regular_o_3c4520e7-f937-4010-8499-93fd8f2df19b_803x250.jpg"
+                    alt="logo"></li>
+            <li>
+                <form class="formSearch" action="#" method="post">
+                    <input type="text" class="inputSearch">
+                    <button class="buttonSearch" type="submit">
+                        <img class="imgSearch" src="../picture/search.png" alt="iconsearch">
+                    </button>
+                </form>
+            </li>
+            <li class="whiteList">
+                <img class="iconWhiteList" src="../picture/heart.png" alt="traitim">
+                <a href="">Whitelist</a>
+            </li>
+            <li class="login">
+                <img class="iconLogin" src="../picture/user.png" alt="user">
+                <a href="">Login</a>
+            </li>
+            <li>
+                <a href="">
+                    <img class="cart" src="../picture/shopping-cart.png" alt="Giỏ hàng">
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="sectionMenu">
+        <ul class="ulMenu">
+            <li class="menu-item">
+                Cell phone
+                <span class="arrow">&#9662;</span>
+                <ul class="subMenu">
+                    <li>Apple</li>
+                    <li>Samsung</li>
+                    <li>Xiaomi</li>
+                    <li>Google</li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                Tablet
+                <span class="arrow">&#9662;</span>
+                <ul class="subMenu">
+                    <li>Apple</li>
+                    <li>Samsung</li>
+                    <li>Xiaomi</li>
+                    <li>Google</li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <hr>
+    </section>
+</header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            
+            <footer style="width: 1903px; height: 481.09px; background-color: #1872B9; margin-top: 50px;">
+    <div class="container-footer">
+        <div style="width: 364.5px; height: 266px;">
+            <b>
+                Cellmigo <br> <br>
+            Mon - Fri
+            9am - 5pm EST <br><br><br>
+            </b>
+
+            If you have questions about an order, please make use of the "Chat with us" or Email <br> <br> <br>
+            <b>Follow us</b>
+            <div>
+                <ul style="display: flex; gap: 10px; margin-top: 10px;">
+                    <li> <img style="width: 28px; height: 28px;" src="/picture/facebook-logo.png" alt="facebook-logo"></li>
+                    <li> <img style="width: 28px; height: 28px;" src="/picture/facebook-logo.png" alt="facebook-logo"></li>
+                    <li> <img style="width: 28px; height: 28px;" src="/picture/facebook-logo.png" alt="facebook-logo"></li>
+                    <li> <img style="width: 28px; height: 28px;" src="/picture/facebook-logo.png" alt="facebook-logo"></li>                        
+                </ul>
+            </div>
+            <br> <br><br>
+            Warranty | Privacy Policy
+        </div>
+
+        <div style="width: 152.55px; height: 266px;">
+            <b>Navigate</b> <br> <br> <br>
+            <ul class="ul_footer">
+                <li>Brands</li>
+                <li>Search</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blogs</li>
+                <li>Quiz</li>
+            </ul>
+        </div>
+
+        <div style="width: 179.55px; height: 266px;">
+            <b>Support</b> <br> <br> <br>
+            <ul class="ul_footer">
+                <li>Contact Us</li>
+                <li>Tutorials</li>
+                <li>Shipping Policy</li>
+                <li>Return Policy</li>
+                <li>Condition Guidelines</li>
+            </ul>
+        </div>
+
+        <div style="width: 260.55px; height: 266px;">
+            <b>Law & Order</b> <br> <br> <br>
+            <ul class="ul_footer">
+                <li>Terms of Services</li>
+                <li>Data Protection</li>
+                <li>Cookies</li>
+                <br>
+                <li>Payments 100% secured</li>
+                <li><img src="/picture/payment.png" alt="payment"></li>
+            </ul>
+        </div>
+        <div style="width: 337.5px; height: 266px;">
+            <b>Newsletter</b> <br> <br> <br>
+            <p>Subscribe today for exclusive deals, trends reports, and company updates.</p>
+        </div>
+    </div>
+</footer>
+
+        </div>
+    </form>
+</body>
+</html>
